@@ -1,0 +1,244 @@
+/**
+ * @name         Restypo
+ * @version      1.0 - $Id$
+ * @link         http://restypo.googlecode.com
+ * @author       Jan Skrasek
+ * @license      MIT License
+ */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+	margin:0;
+	padding:0;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img{
+	border:0;
+}
+address,caption,cite,code,dfn,th,var{
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul{
+	list-style:none;
+}
+caption,th{
+	text-align:left;
+}
+th,td{
+	vertical-align:top;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after{
+	content:'';
+}
+abbr,acronym{
+	border:0;
+}
+html{
+	font-size:100.01%;
+	min-height:100%;
+}
+body{
+	font-family:Calibri, sans-serif;
+	font-size:15px;
+	line-height:1.4em;
+	color:#333;
+	background:#fff;
+	padding:30px;
+}
+#wrapper{
+	width:940px;
+	margin:0 auto;
+}
+p,table,pre,fieldset{
+	margin-bottom:20px;
+}
+pre{
+	border:1px solid #eee;
+	font-family: Consolas, 'Lucida Console', 'Monaco CE', fixed, monospace;
+	overflow: auto;
+	white-space: pre;
+}
+pre code{
+	display:block;
+	padding:4px;
+}
+h1,h2,h3,h4,h5,h6{
+	line-height:1em;
+	color:#000;
+	clear:both;
+}
+h1{
+	font-size:32px;
+	margin-top:30px;
+	margin-bottom:10px;
+}
+h2{
+	font-size:24px;
+	margin-top:30px;
+	margin-bottom:10px;
+}
+h3{
+	font-size:22px;
+	margin-top:15px;
+	margin-bottom:5px;
+}
+h4{
+	font-size:20px;
+	font-variant:small-caps;
+}
+h5{
+	font-size:16px;
+	font-variant:small-caps;
+}
+h6{
+	font-size:14px;
+	font-variant:small-caps;
+}
+a{
+	color:#00268f;
+}
+a:hover{
+	text-decoration:none;
+}
+hr{
+	background:#ddd;
+	border:none;
+	clear:both;
+	color:#fff;
+	height:1px;
+	margin:18px 0;
+}
+table{
+	border:1px solid #ccc;
+}
+td,th{
+	border:1px solid #ccc;
+	padding:6px;
+}
+th{
+	background:#eee;
+}
+tfoot td, tfoot th{
+	background:#F5F5F5;
+}
+blockquote{
+	text-indent:-7px;
+	margin-left:35px;
+}
+blockquote,cite{
+	font-style:italic;
+	font-size:16px;
+}
+blockquote p:before{
+	content:'\201E';
+	font-weight:bold;
+}
+blockquote p:after{
+	content:'\201C';
+	font-weight:bold;
+}
+cite:before{
+	font-style:normal;
+	content:'\2018';
+}
+cite:after{
+	font-style:normal;
+	content:'\2019';
+}
+abbr,acronym{
+	border-bottom:1px dotted #555;
+	cursor:help;
+}
+.clear{
+	clear:both;
+}
+.left,.figure-left{
+	float:left;
+}
+.right,.figure-right{
+	float:right;
+}
+img.left,.figure-left img{
+	padding:4px;
+	border:1px solid #ccc;
+	margin-bottom:18px;
+	margin-right:20px;
+	margin-top:3px;
+}
+img.right,.figure-right img{
+	padding:4px;
+	border:1px solid #ccc;
+	margin-bottom:18px;
+	margin-left:20px;
+	margin-top:3px;
+}
+.figure-left img,.figure-right img,.figure img{
+	margin-bottom:0;
+}
+.figure-left a,.figure-right a,.figure a{
+	padding-right:0;
+	background:none;
+}
+.figure-left p,.figure-right p,.figure p{
+	padding:5px 0;
+	font-style:italic;
+}
+.figure-right p{ margin-left:20px; }
+.figure-left p{ margin-right:20px; }
+ul,ol{
+	margin-left:40px;
+	margin-bottom:18px;
+}
+ul{
+	list-style-type:disc;
+}
+ul ul{
+	list-style-type:circle;
+}
+ul ul ul{
+	list-style-type:square;
+}
+li > ul, li > ol{
+	margin-bottom:0;
+}
+ol{
+	list-style:decimal;
+}
+ul.no-margin,ol.no-margin{
+	margin:0;
+	list-style-type:none;
+	list-style-image:none;
+}
+table ul,table ol{
+	margin-bottom:0;
+	margin-left:23px;
+}
+dl dt{
+	font-style:italic;
+	font-weight:bold;
+	margin:5px 0 0 0;
+}
+dl dd{
+	margin:0 0 5px 25px;
+}
+fieldset{
+	border:1px solid #ddd;
+	padding:5px;
+}
+fieldset table{
+	margin-bottom:0;
+}
+legend{
+	border:1px solid #ddd;
+	padding:0 5px;
+	margin:0 5px;
+}
+iframe{
+	border:1px solid #eee;
+}
