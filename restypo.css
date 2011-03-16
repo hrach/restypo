@@ -315,11 +315,13 @@ input[type="week"] {
 	font-size: 13px;
 	font-family: Arial, sans-serif;
 	vertical-align: top;
-	height: 1.8em;
 	/* IE7 */
 	*padding-top: 1px;
 	*padding-bottom: 1px;
 	*height: auto;
+}
+select {
+	padding: 0;
 }
 
 textarea[disabled],
