@@ -151,12 +151,12 @@ blockquote p:after{
 	font-weight:bold;
 }
 cite:before{
-	font-style:normal;
-	content:'\2018';
+	font-weight:bold;
+	content:'\201A';
 }
 cite:after{
-	font-style:normal;
-	content:'\2019';
+	font-weight:bold;
+	content:'\2018';
 }
 abbr,acronym{
 	border-bottom:1px dotted #555;
