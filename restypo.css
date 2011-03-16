@@ -272,7 +272,7 @@ input[type="button"] {
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #ddd));
 	background: -moz-linear-gradient(top center, #fff 0%, #ddd 100%);
 	border: 1px solid;
-	border-color: #ddd #bbb #999;
+	border-color: #ddd #bbb #bbb #ddd;
 	cursor: pointer;
 	color: #333;
 	font: bold 12px/1.2 Arial, sans-serif;
@@ -282,6 +282,23 @@ input[type="button"] {
 	width: auto;
 	/* IE7 */
 	*padding-bottom: 3px;
+}
+button:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover{
+	background:#ededed;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(0.3, #eee), color-stop(1, #ddd));
+	background:-moz-linear-gradient(top center, #fff 0%, #eee 33%, #ddd 100%);
+}
+button:active,
+input[type="reset"]:active,
+input[type="submit"]:active,
+input[type="button"]:active{
+	background:#eee;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #ddd), color-stop(0.3, #eee), color-stop(1, #fff));
+	background:-moz-linear-gradient(top center, #ddd 0%, #eee 33%, #fff 100%);
+	border-color:#bbb;
 }
 input[type="checkbox"]{
 	margin:2px;
