@@ -268,7 +268,7 @@ input[type="reset"],
 input[type="submit"],
 input[type="button"] {
 	-webkit-appearance: none;
-	background: #ddd url(../imgs/formalize/button.png) repeat-x;
+	background: #f2f2f2;
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #ddd));
 	background: -moz-linear-gradient(top center, #fff 0%, #ddd 100%);
 	border: 1px solid;
