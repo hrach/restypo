@@ -135,12 +135,19 @@ address{
 	font-style:italic;
 }
 blockquote{
+	font-size:17px;
+	color:#666;
 	text-indent:-7px;
-	margin-left:35px;
+	margin:15px 0;
+	padding:15px 10px 15px 35px;
+	border-top:1px solid #bbb;
+	border-bottom:1px solid #bbb;
 }
-blockquote,cite{
+blockquote p:last-child{
+	margin-bottom: 0;
+}
+cite{
 	font-style:italic;
-	font-size:16px;
 }
 blockquote p:before{
 	content:'\201E';
