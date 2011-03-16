@@ -59,7 +59,7 @@ body{
 	width:940px;
 	margin:0 auto;
 }
-p,table,pre,fieldset{
+p,table,pre,fieldset,address{
 	margin-bottom:20px;
 }
 pre{
@@ -130,6 +130,9 @@ th{
 }
 tfoot td, tfoot th{
 	background:#F5F5F5;
+}
+address{
+	font-style:italic;
 }
 blockquote{
 	text-indent:-7px;
