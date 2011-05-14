@@ -9,40 +9,18 @@
  * @link         http://jan.skrasek.com
  * @license      MIT License
  */
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
-	margin:0;
-	padding:0;
-}
-table{
-	border-collapse:collapse;
-	border-spacing:0;
-}
-fieldset,img{
-	border:0;
-}
-address,caption,cite,code,dfn,th,var{
-	font-style:normal;
-	font-weight:normal;
-}
-ol,ul{
-	list-style:none;
-}
-caption,th{
-	text-align:left;
-}
-th,td{
-	vertical-align:top;
-}
-h1,h2,h3,h4,h5,h6{
-	font-size:100%;
-	font-weight:normal;
-}
-q:before,q:after{
-	content:'';
-}
-abbr,acronym{
-	border:0;
-}
+/* >>>> RESET <<<< */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+th,td{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;}
+/* >>>> DEFAULT STYLING <<<< */
 html{
 	font-size:100.01%;
 	min-height:100%;
@@ -54,10 +32,6 @@ body{
 	color:#333;
 	background:#fff;
 	padding:30px;
-}
-#wrapper{
-	width:940px;
-	margin:0 auto;
 }
 p,table,pre,fieldset,address{
 	margin-bottom:20px;
@@ -169,42 +143,6 @@ abbr,acronym{
 	border-bottom:1px dotted #555;
 	cursor:help;
 }
-.clear{
-	clear:both;
-}
-.left,.figure-left{
-	float:left;
-}
-.right,.figure-right{
-	float:right;
-}
-img.left,.figure-left img{
-	padding:4px;
-	border:1px solid #ccc;
-	margin-bottom:18px;
-	margin-right:20px;
-	margin-top:3px;
-}
-img.right,.figure-right img{
-	padding:4px;
-	border:1px solid #ccc;
-	margin-bottom:18px;
-	margin-left:20px;
-	margin-top:3px;
-}
-.figure-left img,.figure-right img,.figure img{
-	margin-bottom:0;
-}
-.figure-left a,.figure-right a,.figure a{
-	padding-right:0;
-	background:none;
-}
-.figure-left p,.figure-right p,.figure p{
-	padding:5px 0;
-	font-style:italic;
-}
-.figure-right p{ margin-left:20px; }
-.figure-left p{ margin-right:20px; }
 ul,ol{
 	margin-left:40px;
 	margin-bottom:18px;
@@ -223,11 +161,6 @@ li > ul, li > ol{
 }
 ol{
 	list-style:decimal;
-}
-ul.no-margin,ol.no-margin{
-	margin:0;
-	list-style-type:none;
-	list-style-image:none;
 }
 table ul,table ol{
 	margin-bottom:0;
@@ -347,7 +280,6 @@ input[type="week"] {
 select {
 	padding: 0;
 }
-
 textarea[disabled],
 select[disabled],
 input[type="date"][disabled],
@@ -377,4 +309,51 @@ input:required:not(:valid) {
 }
 input[type=search]::-webkit-search-decoration {
 	display: none;
+}
+/* >>>> CLASS STYLING <<<< */
+.clear{
+	clear:both;
+}
+.left,.figure-left{
+	float:left;
+}
+.right,.figure-right{
+	float:right;
+}
+img.left,.figure-left img{
+	padding:4px;
+	border:1px solid #ccc;
+	margin-bottom:18px;
+	margin-right:20px;
+	margin-top:3px;
+}
+img.right,.figure-right img{
+	padding:4px;
+	border:1px solid #ccc;
+	margin-bottom:18px;
+	margin-left:20px;
+	margin-top:3px;
+}
+.figure-left img,.figure-right img,.figure img{
+	margin-bottom:0;
+}
+.figure-left a,.figure-right a,.figure a{
+	padding-right:0;
+	background:none;
+}
+.figure-left p,.figure-right p,.figure p{
+	padding:5px 0;
+	font-style:italic;
+}
+.figure-right p{ margin-left:20px; }
+.figure-left p{ margin-right:20px; }
+ul.no-margin,ol.no-margin{
+	margin:0;
+	list-style-type:none;
+	list-style-image:none;
+}
+/* >>>> OBJECT STYLING <<<< */
+#wrapper{
+	width:940px;
+	margin:0 auto;
 }
