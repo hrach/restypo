@@ -17,7 +17,7 @@ fieldset,img{border:0;}
 address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}
 ol,ul{list-style:none;}
 caption,th{text-align:left;}
-th,td{vertical-align:top;}
+th,td{vertical-align:top;font-weight:normal;text-align:left;}
 h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
 q:before,q:after{content:'';}
 abbr,acronym{border:0;}
@@ -93,18 +93,8 @@ hr{
 	height:1px;
 	margin:18px 0;
 }
-table{
-	border:1px solid #ccc;
-}
 td,th{
-	border:1px solid #ccc;
-	padding:6px;
-}
-th{
-	background:#eee;
-}
-tfoot td, tfoot th{
-	background:#F5F5F5;
+	padding:4px;
 }
 address{
 	font-style:italic;
@@ -356,8 +346,21 @@ img.right,.figure-right img{
 	padding:5px 0;
 	font-style:italic;
 }
-.figure-right p{ margin-left:20px; }
-.figure-left p{ margin-right:20px; }
+.figure-right p{ margin-left:20px;}
+.figure-left p{ margin-right:20px;}
+table.bordered{
+	border:1px solid #ccc;
+}
+table.bordered td,table.bordered th{
+	border:1px solid #ccc;
+	padding:6px;
+}
+table.bordered th{
+	background:#eee;
+}
+table.bordered tfoot td,table.bordered tfoot th{
+	background:#F5F5F5;
+}
 ul.no-margin,ol.no-margin{
 	margin:0;
 	list-style-type:none;
