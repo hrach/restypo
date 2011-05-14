@@ -1,6 +1,7 @@
 /**
  * CSS typoghraphical reset
- * Some styling (form fields) based on formalize (http://github.com/nathansmith/formalize)
+ * Some styling (form fields) based on formalize - http://github.com/nathansmith/formalize
+ * Clearfix based on http://nicolasgallagher.com/micro-clearfix-hack/
  *
  * @name         Restypo
  * @version      1.0 - $Id$
@@ -313,6 +314,16 @@ input[type=search]::-webkit-search-decoration {
 /* >>>> CLASS STYLING <<<< */
 .clear{
 	clear:both;
+}
+.clearfix:before,.clearfix:after{
+	content:"";
+	display:table;
+}
+.clearfix:after{
+	clear:both;
+}
+.clearfix{
+	zoom:1;
 }
 .left,.figure-left{
 	float:left;
